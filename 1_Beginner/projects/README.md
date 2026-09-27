@@ -4,7 +4,8 @@ Complete coding projects that demonstrate practical application of Java fundamen
 
 ## Available Projects
 
-### 🎓 **Project 1: Student Grade Management System**
+### 🎓 **Project 1: Student Grade Management System** — implemented in
+[`StudentGradeSystem/`](StudentGradeSystem/)
 
 **Skills Reinforced:**
 - Variables & Data Types
@@ -18,7 +19,8 @@ Complete coding projects that demonstrate practical application of Java fundamen
 **Estimated Time:** 2-3 hours
 **Features:** Add students, calculate grades, generate reports
 
-### 🧮 **Project 2: Simple Calculator**
+### 🧮 **Project 2: Simple Calculator** — implemented in
+[`SimpleCalculator/`](SimpleCalculator/)
 
 **Skills Reinforced:**
 - Variables & Data Types
