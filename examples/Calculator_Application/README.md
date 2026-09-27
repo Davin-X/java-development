@@ -31,13 +31,17 @@ Calculator_Application/
 
 ### Prerequisites
 - Java 17+
-- Gradle (wrapper included)
+- Gradle (system install — no wrapper is committed in this repo)
+
+> New to Java? Start with the hand-written version first:
+> [`1_Beginner/projects/SimpleCalculator/`](../../1_Beginner/projects/SimpleCalculator/) —
+> same calculator built file-by-file with plain `javac`. This folder is the
+> Gradle-structured extension of that project.
 
 ### Run the Application
 ```bash
 cd examples/Calculator_Application
-./gradlew run    # Unix/Linux/macOS
-gradlew.bat run  # Windows
+gradle run    # system Gradle; there is intentionally no ./gradlew wrapper here
 ```
 
 ### Sample Usage
@@ -99,8 +103,8 @@ This project demonstrates:
 ## 🧪 Testing
 
 ```bash
-./gradlew test                    # Run all tests
-./gradlew jacocoTestReport        # Generate coverage report
+gradle test          # Run all tests (system Gradle)
+gradle jacocoTestReport  # Generate coverage report
 ```
 
 ## 📚 How to Study

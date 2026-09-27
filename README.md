@@ -5,7 +5,6 @@ A comprehensive Java learning resource with structured progression from beginner
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.oracle.com/)
 [![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://gradle.org/)
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)](https://spring.io/projects/spring-boot)
 
 ## Learning Path
 
@@ -20,7 +19,7 @@ A comprehensive Java learning resource with structured progression from beginner
 ## Repository Structure
 
 ```
-java-learning-repo/
+java-development/
 ├── 0_Getting_Started/           # Foundation: JDK setup, IDE, build tools, first programs
 │   ├── documentation/           # Setup guides (JDK, IDE, build tools)
 │   └── notebooks/               # First Java program tutorial
@@ -28,8 +27,10 @@ java-learning-repo/
 ├── 2_Intermediate/              # Advanced: Inheritance, generics, exceptions, I/O
 ├── 3_Advanced/                  # Senior: Multithreading, design patterns, JVM
 ├── 4_Algorithms_Interview_Prep/ # Algorithms: Arrays/strings algorithms, competitive coding
+├── 1_Beginner/projects/          # Beginner projects: SimpleCalculator, StudentGradeSystem
 ├── examples/                    # Practical runnable applications
-│   └── Calculator_Application/  # Interactive OOP calculator example
+│   └── Calculator_Application/  # Interactive OOP calculator (Gradle; see 1_Beginner/projects/SimpleCalculator for the hand-written version)
+├── docs/                        # CONTRIBUTING, CHANGELOG, SECURITY, Code of Conduct
 ├── .github/workflows/           # CI/CD automation
 └── README.md                    # This document
 ```
@@ -39,8 +40,8 @@ java-learning-repo/
 ### Prerequisites
 - **Java 17+** (LTS version recommended)
 - **Git** for version control
-- **Gradle** or **Maven** for build management
 - **IDE**: IntelliJ IDEA, Eclipse, or VS Code with Java extensions
+- **Gradle** (system install, optional) — only for `examples/Calculator_Application`
 
 ### Quick Setup
 1. **Install Java 17+:**
@@ -50,8 +51,8 @@ java-learning-repo/
 
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/java-learning-repo.git
-   cd java-learning-repo
+   git clone https://github.com/Davin-X/java-development.git
+   cd java-development
    ```
 
 3. **Choose your learning path:**
@@ -127,6 +128,8 @@ Contributions are welcome! If you find errors, have improvements, or want to add
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Contributing? See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ---
 

@@ -232,3 +232,9 @@ Students who complete this project demonstrate:
 - **Career Preparation:** Portfolio project suitable for job applications
 
 **This calculator serves as tangible proof of Level 1 Java proficiency! ⭐**
+
+> **Same calculator, Gradle-structured:** when you're done here, see
+> [`examples/Calculator_Application/`](../../../../examples/Calculator_Application/)
+> — the same idea rebuilt with Gradle, JUnit tests, and JaCoCo coverage.
+> Note: both programs define `Calculator` / `CalculatorException` in the
+> default package by design, so compile them in separate output dirs.
